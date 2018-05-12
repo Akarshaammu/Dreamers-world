@@ -1,0 +1,149 @@
+﻿<?xml version = "1.0" encoding = "utf-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtm111/DTD/xhtm11-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+
+
+<style>
+body { background-image:url("s5.gif");background-position: center;
+background-repeat: no-repeat; background-size: cover; margin:50px;}
+
+h1   {color: red;}
+h1 {font-family:Arial Times new Roman ; font-size:200% ; font-style:italic;font-weight:bold;}
+p1 {color:firebrick;font-weight:bold}
+h3{color:red;font-weight:bold}
+a {color: gold;}
+a:hover
+{ background-color: green; }
+*{font-size:24px}
+th {color:hotpink;}
+td {color:hotpink;}
+</style>
+
+
+
+<script type="text/javascript" src="signup.js"></script>
+<title>SIGNUP</title>
+</head>
+
+ <body>
+
+<center>
+
+<table cellspacing="18" >
+
+<tr>
+
+
+<th >
+<a href = "Dreamer's world.html"> Home </a></th>
+
+
+<th>
+<a href = "login.html">Login</a>
+</th>
+
+<th>
+<a href= "signup.html">Sign Up</a> 
+</th>
+</tr>
+
+</center>
+
+<center>
+<h1>SignUp</h1>
+</center>
+
+<hr />
+
+<form name="signup" method="post" >
+<center>
+<table align="centre" cellpadding="10" cellspacing="5
+">
+
+<tr>
+<th>FIRST NAME </th>
+<td>:<input  type="text" id="fn" name="fname" size="30" onclick="fclr()" >
+</td>
+
+
+<th>LAST NAME:</th>
+<td>:<input type="text" size=25 id="ln" name="lname" onclick="lclr()">
+</td>
+</tr>
+
+<tr>
+<th>ADDRESS</th>
+<td>:<textarea rows="6" id="adr" cols="25" value="Enter your full address" onclick="aclr()" >
+</textarea> </td>
+</tr>
+
+<tr>
+<th>MOB</th>
+<td>:<input type="text" size=25 id="m" name="mob"></td>
+
+<th>EMAILID</th>
+<td>:<input type="text" id="em" name="emailid" size="30" >
+</td>
+</tr>
+
+
+<tr>
+<th>DOB</th>
+<td>:
+<select name="day"><option>Day</option><option>1</option>
+<option>2</option><option>3</option></select>
+<select name="month"><option>Month</option><option>January</option><option>February</option></select>
+<select name="year"><option>Year</option><option>1997</option>
+<option>1998</option><option>1999</option></select>
+</td>
+</tr>
+
+<tr>
+<th>GENDER</th>
+<td>:
+<input type="radio"  name="gender"/>&nbsp Female &nbsp <input type="radio" name="gender"/> &nbsp Male<br/>
+</td>
+</tr>
+<tr>
+<th>USERNAME</th>
+<td>:<input type="text" size=25 id="uid" name="userid" onclick="uclr()" ></td>
+</tr>
+
+
+<tr>
+<th>PASSWORD</th>
+<td>:<input type="password" id="pwd" name="password" size="30" /></td>
+
+</tr>
+
+
+<tr>
+<th>RETYPE PASSWORD</th>
+<td>:<input type="Password" size=25 id="pwd1" name="pwd1"></td>
+</tr>
+
+
+</center>
+<tr>
+<td>
+
+<input  type="submit" value="Sign up" action="/action.php" >
+
+</td>
+</tr>
+<br />
+</table>
+</form>
+
+<hr>
+
+
+</body>
+
+</html>
